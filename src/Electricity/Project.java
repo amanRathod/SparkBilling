@@ -245,8 +245,46 @@ public class Project extends JFrame implements ActionListener{
         new Project("", "").setVisible(true);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
+    public void actionPerformed(ActionEvent ae){
+//        String msg = ae.getActionCommand();
+//        if(msg.equals("Customer Details")){
+//            new CustomerDetails().setVisible(true);
+//
+//        }else if(msg.equals("New Customer")){
+//            new NewCustomer().setVisible(true);
+//
+//        }else if(msg.equals("Calculate Bill")){
+//            new CalculateBill().setVisible(true);
+//
+//        }else if(msg.equals("Pay Bill")){
+//            new PayBill(meter).setVisible(true);
+//
+//        }else if(msg.equals("Notepad")){
+//            try{
+//                Runtime.getRuntime().exec("notepad.exe");
+//            }catch(Exception e){ }
+//        }else if(msg.equals("Calculator")){
+//            try{
+//                Runtime.getRuntime().exec("calc.exe");
+//            }catch(Exception e){ }
+//        }else if(msg.equals("Web Browser")){
+//            try{
+//                Runtime.getRuntime().exec("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+//            }catch(Exception e){ }
+//        }else if(msg.equals("Logout")){
+//            this.setVisible(false);
+//            new Login().setVisible(true);
+//        }else if(msg.equals("Generate Bill")){
+//            new GenerateBill(meter).setVisible(true);
+//
+//        }else if(msg.equals("Deposit Details")){
+//            new DepositDetails().setVisible(true);
+//        }else if(msg.equals("View Information")){
+//            new ViewInformation(meter).setVisible(true);
+//        }else if(msg.equals("Update Information")){
+//            new UpdateInformation(meter).setVisible(true);
+//        }else if(msg.equals("Bill Details")){
+//            new BillDetails(meter).setVisible(true);
+//        }
     }
 }
