@@ -133,7 +133,7 @@ public class Signup extends JFrame implements ActionListener{
                 JOptionPane.showMessageDialog(null, "Account Created Successfully");
                 this.setVisible(false);
                 new Login().setVisible(true);
-            }catch(Exception e){
+            } catch(Exception e){
 
             }
         } else if(ae.getSource()== b2){
