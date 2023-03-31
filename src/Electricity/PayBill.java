@@ -153,7 +153,7 @@ public class PayBill extends JFrame implements ActionListener{
 
             }catch(Exception e){}
             this.setVisible(false);
-//            new Paytm(meter).setVisible(true);
+            new Paytm(meter).setVisible(true);
 
         }else if(ae.getSource()== b2){
             this.setVisible(false);
